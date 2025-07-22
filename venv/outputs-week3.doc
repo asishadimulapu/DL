@@ -13,3 +13,56 @@ metrics : accuracy
 
 epochs : 10
 batch_size : 64
+
+Experiment - 2:
+
+hyperparameters:
+optimizer : sgd
+loss : categorical_crossentropy
+accuracy : 0.1027
+loss : 2.3026
+
+# Experiment-3:
+
+hyperparameters:
+one more layer with 256 neurons is added.
+optimizer : sgd
+loss : categorical_crossentropy
+accuracy : 0.0988
+loss : 2.3035
+
+
+
+# Experiment-4:
+
+hyperparameters:
+optimizer : sgd changed to adam
+output :
+loss : categorical_crossentropy
+accuracy : 0.987
+loss : 2.3029
+
+
+
+# Experiment-5:
+
+hyperparameters:
+epochs increased from 10 to 30
+output :
+optimizer : adam
+loss : categorical_crossentropy
+accuracy : 0.2120
+loss : 2.0984
+
+# Experiment-6:
+
+hyperparameters:
+epochs increased from 10 to 30
+evaluating on traning dataset
+output :
+optimizer : adam
+loss : categorical_crossentropy
+accuracy : 0.2881
+loss : 0.2881
+
+
