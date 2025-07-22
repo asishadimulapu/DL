@@ -1,0 +1,15 @@
+# Experiment-1:
+
+no.of layers : 2
+no.of neurons in layer 1 : 128
+Activation : relu
+
+no.of neurons in layer 2 (output) : 10
+Activation : softmax
+
+optimizer : adam
+loss : categorical_crossentropy
+metrics : accuracy
+
+epochs : 10
+batch_size : 64
